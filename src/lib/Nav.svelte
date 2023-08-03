@@ -1,4 +1,9 @@
 
 <nav>
-    <h1>I wanna be a real navbar when I grow up</h1>    
+    <div>
+        <a href="/">Not About</a>
+    </div>
+    <div>    
+        <a href="/about">About</a>
+    </div>    
 </nav>
