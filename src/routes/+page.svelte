@@ -1,11 +1,10 @@
-<script>
-    import Header from '$lib/Header.svelte'
-    import Footer from '$lib/Footer.svelte'
-</script>
+<svelte:head>
+    <title>Space Nerdery</title>
+    <style>
+        <link rel="stylesheet" href="css/main.css" />
+    </style>
+</svelte:head>
 
-<Header />
-<title>Space Nerdery</title>
 <h1>LET'S GO TO SPACE</h1>
 
-<Footer />
 
