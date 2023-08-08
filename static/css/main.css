@@ -1,0 +1,28 @@
+h1 {
+    color: green;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+img#titleImage
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p
+{
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    line-height: 0em;
+}
+
+p#tinyText {
+    font-size: 4px;
+    font-family: cursive;
+}

@@ -4,7 +4,7 @@
 
 <header>
     <Nav />
-    <img src="artemis_launch.jpg" alt="An image of the Artemis 1 rocket lifting off the pad."
+    <img id="titleImage" src="artemis_launch.jpg" alt="An image of the Artemis 1 rocket lifting off the pad."
     width= 20%; 
     />
     <h1>
