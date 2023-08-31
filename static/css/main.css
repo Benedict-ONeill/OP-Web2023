@@ -4,8 +4,6 @@ h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     text-decoration: underline;
-    border: 2px dotted black;
-    padding: 15px;
     box-sizing: border-box;
     width: 500px;
     background-color: skyblue;
@@ -16,6 +14,9 @@ h1 {
 
 .title {
     margin: auto;
+    border: 2px dotted black;
+    padding: 15px;
+    box-sizing: border-box;
 }
 
 img#titleImage {
@@ -38,4 +39,37 @@ p {
 p#tinyText {
     font-size: 4px;
     font-family: cursive;
+}
+
+.navBar {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: burlywood;
+    height: 45px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navBar .navTitle{
+    height:100%;
+    display: flex;
+    align-items: center;
+    background-color: skyblue;
+}
+
+.navBar h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    margin:0;    
+}
+
+.navBar .navButton {
+    padding: 10px 25px 10px 25px;
+    border: 3px solid black;
+}
+
+.navBar .navButton:last-of-type {
+    margin-right: 300px;
 }
