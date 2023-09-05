@@ -1,3 +1,15 @@
+:root {
+    --primary-colour: black;
+}
+
+.background {
+    background-color: var(--primary-colour);
+}
+
+p, h1, h2, div {
+    color: white;
+}
+
 h1 {
     color: green;
     font-size: 20px;
