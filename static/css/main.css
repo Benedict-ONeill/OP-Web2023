@@ -2,16 +2,20 @@
     --primary-colour: black;
 }
 
-.background {
-    background-color: var(--primary-colour);
-}
-
 p, h1, h2, div {
     color: white;
 }
 
 body {
     margin: 0;
+    background-color: var(--primary-colour);
+}
+
+body div .bulk {
+    width: 85%;
+    margin: auto;
+    background-color: #4e535c;
+    border: 8px ridge white;
 }
 
 h1 {
@@ -58,8 +62,9 @@ p#tinyText {
 }
 
 .navBar {
-    display: flex;
-    justify-content: right;
+    display: grid;
+    /*justify-content: right;*/
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     background-color: burlywood;
     height: 45px;
@@ -69,18 +74,25 @@ p#tinyText {
 }
 
 .navBar .navTitle{
+    
     height:100%;
     display: flex;
     margin: auto;
     align-items: center;
     background-color: skyblue;
-    width: 10em;
+    width: 20em;
+    
 }
 
 .navBar h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Roboto Condensed','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 15px;
     margin:0;    
+}
+
+.navBar .navButtons{
+    display:flex;
+    justify-content: flex-end;
 }
 
 .navBar .navButton {
@@ -89,5 +101,5 @@ p#tinyText {
 }
 
 .navBar .navButton:last-of-type {
-    margin-right: 300px;
+   /* margin-right: 300px;*/
 }

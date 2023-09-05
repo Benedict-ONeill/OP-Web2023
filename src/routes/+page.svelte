@@ -3,7 +3,7 @@
     
 </svelte:head>
 
- <div class="background">      
+ <div class="bulk">      
     <h1 class="title">LET'S GO TO SPACE</h1>
 
     <p id="tinyText">
